@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: url('post1.jpeg');
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vw;
+}
+
+.nav {
+    display: inline-block;
+    width: 100%;
+    background: grey;
+    text-align: center;
+    background: rgb(173, 165, 165, 0.2);
+}
+
+
+
+.nav svg {
+    position: relative;
+    float: left;
+    top: 1vh;
+    width: 50px;
+    color: white;
+}
+
+
+.nav span {
+    position: relative;
+    font-size: 20px;
+    float: left;
+    color: white;
+    top: 1.7vh;
+}
+
+.nav a {
+    position: relative;
+    left: 60.5vw;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+
+.nav a:hover {
+    background: white;
+    color: black;
+    border-radius: 10px;
+}
+
+.container {
+    position: relative;
+}
+
+.container form-control {
+    width: 100px;
+}

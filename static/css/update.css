@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background: url('./upd.png');
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vw;
+}
+
+.nava {
+    display: inline-block;
+    width: 100%;
+    background: grey;
+    text-align: center;
+    background: rgb(173, 165, 165, 0.2);
+}
+
+.nava svg {
+    position: relative;
+    float: left;
+    top: 1vh;
+    width: 50px;
+    color: white;
+}
+
+
+.nava span {
+    position: relative;
+    font-size: 24px;
+    float: left;
+    color: white;
+    top: 2vh;
+}
+
+.nava a {
+    position: relative;
+    float: right;
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+
+}
+
+.nava a:hover {
+    background: white;
+    color: black;
+    border-radius: 10px;
+}
+
+
+
+
